@@ -1,0 +1,29 @@
+.products-list{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.products-list .product {
+    padding: 10px;
+    border: 1px solid orange;
+    margin-right: 10px;
+    max-width: 150px;
+}
+
+table{
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+table tr {
+    width: 100%;
+}
+
+table tr td{
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
+}
